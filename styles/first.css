@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Parisienne&display=swap')
+;
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap')
+;
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap')
+;
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Pacifico&display=swap')
+
+;
+
+ * {
+  font-family: 'Montserrat';
+}
+.navbar-brand {
+  font-family: "Parisienne";
+  font-size: larger;
+  color: #3E3232;
+}
+.circle {
+    background-color: #F8DFD4;
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    text-align: center;
+ 
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 50px;
+    
+  }
+
+  .discount {
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    text-align: center;
+    margin-top: 150px;
+    padding-top: 100px;
+    background-color: #3E3232;
+    color: #FEFBF6;
+    transition: transform 0.4s ease-in-out;
+  }
+  .discount :hover {
+    transform: scale(1.1);
+  }
+   
+  
+  h4 {
+    color: #3E3232;
+  }
+  .card-text {
+    color: #503C3C;
+  }
+  .Upto{
+    font-size: 32px;
+  }
+  /*.allcircle{
+    display: inline;
+    text-align: center;
+  }*/
+  .allcard1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .allcard2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .card-body1 {
+    width: 400px ;
+    height: 300px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 15px;
+    
+
+  }
+  .card-title1 {
+    font-size: 26px;
+  }
+  .card2 {
+   text-align: center;
+   padding-bottom: 30px;
+   
+   
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color: #3E3232;
+  }
+  a:hover {
+    text-decoration: underline ;
+    color: #A87C7C;
+  }
+  .ny {
+    background-color: green;
+    color: blue;
+  }
+  .cart {
+    background-color: aquamarine;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .btn-outline-primary{
+    background-color: #FEFBF6;
+    outline: 1px solid #3E3232 !important;
+    border: none !important;
+    color: #3E3232;
+  }
+.btn-outline-primary :hover{
+  background-color: #3E3232 !important;
+  /*outline: 1px solid #3E3232 !important;*/
+  border: none !important;
+  color: aliceblue;
+  background-color: #3E3232 !important;
+}
+
+.nav-item1 {
+  text-decoration: underline !important;
+}
+
+nav {
+  position: fixed ;
+  margin-bottom: 30px ;
+}
+footer {
+  margin-top: 50px;
+}

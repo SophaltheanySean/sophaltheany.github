@@ -1,0 +1,76 @@
+ .head123 {
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    
+}
+
+.form123 {
+    margin: auto;
+    background-color: #FC819E;
+    width: 700px;
+    height: 500px;
+    padding-left: 20px;
+    padding-top: 30px;
+    border-radius: 4px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+   
+    
+}
+
+
+#newsletter1 {
+    width: 650px !important ;
+    
+
+}
+#newsletter2 {
+    width: 650px !important ;
+    height: 150px;
+
+    
+
+}
+#newsletter2::placeholder{
+    font-size: small;
+    text-align: left;
+    padding-top: 0;
+margin-top: 0;
+    
+}
+.submitbutton .subbutton {
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+   padding-right: 70px;
+ background-color: #3E3232;
+  color: #FEFBF6;
+   padding-top: 6px;
+    
+    
+}
+.submitbutton{
+    display: flex;
+    justify-content: end;
+    margin-right: 16px;
+    margin-top: 10px;
+    
+    
+
+}
+.button :hover{
+    background-color: #7E6363;
+   color: #FEFBF6;
+
+}
+.form-control {
+    padding-top: 0;
+}
+
+   
+   
+    

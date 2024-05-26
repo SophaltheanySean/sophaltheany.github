@@ -1,0 +1,94 @@
+
+/*
+
+.addcart1 {
+    text-decoration: none;
+    color: #FFF8E3;
+
+}
+/*
+.card-img-top {
+    width: 400px;
+    height: 400px;
+   
+}
+.card {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    float: left;
+}
+.card1 {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    float: left;
+}
+.card2 {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    float: left;
+}
+.card3 {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    float: left;
+} */
+h3 {
+    text-align: center;
+    color: #321313;
+}
+.addcart{
+    background-color: #321313;
+    border-radius: 8px;
+  
+  
+    
+    text-align: center;
+    & a{
+       color: #F9F5F0; 
+       text-decoration: none;
+    }
+   
+    
+    
+}
+.first-group{
+    & .card{
+        transition: transform 0.3s ease-in-out;
+       
+        & img{
+            width: 300px;
+        }
+        
+    }
+   /* & .card:hover{
+        transform: scale(1.05);
+
+    }*/
+
+}
+.addcart :hover {
+    background-color: #776B5D;
+   
+    display: block;
+    padding: auto;
+    color: #ffff;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+
+    
+ 
+    
+}
+img :hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    padding: 32px 34px;
+
+}
+
+
